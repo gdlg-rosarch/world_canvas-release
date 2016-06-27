@@ -1,0 +1,12 @@
+Source: ros-kinetic-world-canvas-server
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/world_canvas_server
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-world-canvas-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-pymongo, ros-kinetic-nav-msgs, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-visualization-msgs, ros-kinetic-warehouse-ros, ros-kinetic-world-canvas-msgs, ros-kinetic-world-canvas-utils
+Description: Storage manager and server for WCF semantic maps.
